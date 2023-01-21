@@ -1,0 +1,198 @@
+body {
+    text-align: center;
+}
+
+/* header section  */
+header {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+    margin: 30px auto;
+}
+
+.logo-text-container {
+    float: right;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.logo-text {
+    font-family: 'Yellowtail', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.brand-caption {
+    font-size: 10px;
+}
+
+.header-social-links-container img:nth-of-type(7) {
+    margin-left: 10px;
+}
+
+/* line decorations  */
+.section-divider {
+    background-image: url("/img/hr-img.png");
+    background-repeat: repeat;
+    height: 20px;
+    width: 960px;
+    margin: 0 auto 30px;
+}
+
+/* recipe name section  */
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.recipe-name-container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.recipe-name-container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.recipe-name {
+    margin-bottom: 30px;
+}
+
+.recipe-name p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #BDBDC3;
+    letter-spacing: -1px;
+}
+
+/* print icon container  */
+.print-icon-container {
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.print-icon-container p {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #BDBDC3;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 4px
+}
+
+/* Recipe Image */
+.recipe-image-container img {
+    width: 960px;
+    margin-bottom: 30px;
+}
+
+/* Recipe Instructions  */
+.recipe-directions-container {
+    margin-bottom: 30px;
+}
+
+.recipe-directions-container p {
+    margin: 30px auto;
+    text-align: left;
+}
+
+/* recipe ingredients  */
+.recipe-ingredients-container {
+    background-image: url(/img/list-bg.png);
+    margin-bottom: 30px;
+}
+
+.recipe-ingredients-list {
+    display: flex;
+    font-family: 'Patrick Hand', cursive;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+    position: relative;
+
+}
+
+.recipe-ingredients-list section {
+    margin: 40px;
+}
+
+.recipe-ingredient {
+    margin: 15px;
+}
+
+/* footer section  */
+footer {
+    margin-bottom: 60px;
+}
+
+.author-container {
+    display: inline-flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.author-container img {
+    margin-right: 20px;
+}
+
+.author-text {
+    text-align: left;
+}
+
+.author-text h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.author-text p {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #BC7058;
+    color: white;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 50px;
+    width: 170px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.footer-logo-hr {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer-logo-hr hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: #BDBDC3;
+}
+
+.left-hr {
+    border-top: solid;
+    width: 40%;
+}
+
+.right-hr {
+    border-top: solid;
+    width: 40%;
+}
+
+.copyright {
+    color: #BDBDC3;
+    font-size: 13px;
+}
